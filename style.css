@@ -1,0 +1,78 @@
+
+*{
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-heading{
+    font-size: 75px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 20px;
+}
+img{
+    border-radius: 8px;
+    background-size: cover;
+  }
+h5{
+    font-family: "Montserrat", sans-serif;
+}  
+.alpha{
+border: 1px;
+border-style: solid;
+border-color: grey;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #eab676;
+  }
+  
+  .flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+.obj{
+  text-align: center;
+  max-width: 700px; /* Adjust the width as needed */
+  font-size: larger;
+  padding-left: 20px;
+  
+
+}  
+
+#ceo{
+  border-radius: 50%;
+  width: 400px;
+}
+#ceo_text{
+  
+    max-width: 500px; /* Adjust the width as needed */
+    /* Optional: Set margins for spacing */
+    margin: 40px;
+    
+  
+}
+#ceo_title{
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+
+
+}
+#obj-title{
+  padding-left: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.address {
+  font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+#pets, #about_us, #care{
+  padding-top: 70px;
+}
