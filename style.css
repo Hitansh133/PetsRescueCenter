@@ -23,7 +23,10 @@ border-color: grey;
 
 .flex-container {
     display: flex;
-    background-color: #eab676;
+    background-color: #ffa500 ;
+    flex-grow: 1;
+    justify-content: right;
+    align-content: space-evenly;
   }
   
   .flex-container > div {
@@ -31,6 +34,8 @@ border-color: grey;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    border-radius: 10px;
+    align-self: auto;
   }
   
 .obj{
@@ -75,4 +80,77 @@ border-color: grey;
 
 #pets, #about_us, #care{
   padding-top: 70px;
+}
+
+.hidden{
+  display: none;
+}
+
+#popup{
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  position:fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%)
+}
+
+#closePetPopUP{
+  /* Optional: Add a subtle border */
+  border: 1px solid white;
+   /* Style the button */
+   background-color: #3498db; /* Adjust button color to your preference */
+   color: white;
+   padding: 10px 20px; /* Adjust padding for button size */
+   border-radius: 5px; /* Add some rounded corners */
+   cursor: pointer; /* Indicate clickable element */
+}
+
+#closePetPopUP:hover {
+  background-color: #242731; /* Slightly lighter blue on hover */
+ 
+   
+  
+}
+
+#popup_one_heading{
+  text-align: center; 
+  margin-bottom: 15px
+}
+
+label{
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%; /* Make input fields and select element full width */
+  padding: 10px; /* Add padding for better input experience */
+  border: 1px solid #ccc; /* Add a thin border to input fields */
+  border-radius: 3px; /* Add some rounded corners */
+}
+
+select {
+  appearance: none; 
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+#appointment_confirmed{
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  position:fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%)
+}
+
+#element-top-left{
+  position: absolute;
+  top: 0;
+  left: 0;
 }
